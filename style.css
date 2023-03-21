@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+button{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(0, 255, 255, 0.158);
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.box1{
+    background-color: rgba(255, 0, 0, 0.541);
+}
+.box2{
+    background-color: rgba(0, 128, 0, 0.541);
+}
+.box3{
+    background-color: rgba(0, 0, 255, 0.541);
+}
+
+.clear{
+    margin-top: -100px;
+    margin-left: 200px;
+    padding: 10px 50px;
+    background-color: rgba(255, 123, 0, 0.534);
+    border: 1px solid;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.clear:hover{
+    background-color: rgba(255, 123, 0, 0.267);
+}
